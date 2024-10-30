@@ -16,7 +16,9 @@ class Program
 
 #if DEBUG
         Debug.Assert(TestClass.PositiveTest(arr, sortedArr));
-        Debug.Assert(TestClass.PerformanceTest());
+        Debug.Assert(TestClass.PerformanceTest(100000, 50000));
+        Debug.Assert(TestClass.BoundaryTest(new int[] { }, new int[1], new int[] { 2, 2, 2, 3, 3, 3, 4, 4, 5, 5 }, sortedArr));
+        Debug.Assert(TestClass.IdempotencyTest(arr, sortedArr));
 #endif
 
     }

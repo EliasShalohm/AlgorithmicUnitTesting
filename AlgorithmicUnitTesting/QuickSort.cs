@@ -13,6 +13,10 @@ namespace AlgorithmicUnitTesting
 
         public static int[] SortArray(int[] array, int leftIndex, int rightIndex)
         {
+            if (array.Length == 0)
+            {
+                return null;
+            }
             var i = leftIndex;
             var j = rightIndex;
             var pivot = array[leftIndex];
