@@ -8,23 +8,25 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\LukeZurg22_Gaming\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\AlgorithmicUnitTesting\\AlgorithmicUnitTesting\\AlgorithmicUnitTesting.csproj",
+      "projectUniqueName": "F:\\School\\LSU\\Degree\\Semester 4 a - Fall\\CSC 4330\\AlgorithmicUnitTesting\\AlgorithmicUnitTesting\\AlgorithmicUnitTesting.csproj",
       "projectName": "AlgorithmicUnitTesting",
-      "projectPath": "C:\\Users\\User\\source\\repos\\AlgorithmicUnitTesting\\AlgorithmicUnitTesting\\AlgorithmicUnitTesting.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\AlgorithmicUnitTesting\\AlgorithmicUnitTesting\\obj\\",
+      "projectPath": "F:\\School\\LSU\\Degree\\Semester 4 a - Fall\\CSC 4330\\AlgorithmicUnitTesting\\AlgorithmicUnitTesting\\AlgorithmicUnitTesting.csproj",
+      "packagesPath": "C:\\Users\\LukeZurg22_Gaming\\.nuget\\packages\\",
+      "outputPath": "F:\\School\\LSU\\Degree\\Semester 4 a - Fall\\CSC 4330\\AlgorithmicUnitTesting\\AlgorithmicUnitTesting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LukeZurg22_Gaming\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -46,6 +48,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -67,7 +74,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
